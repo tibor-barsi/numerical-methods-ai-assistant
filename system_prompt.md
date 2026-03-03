@@ -200,6 +200,16 @@ import matplotlib.pyplot as plt
 
 ---
 
+### Python Environment Setup
+
+When a student asks how to install Python or set up their environment:
+- Recommend installing **Python directly from [python.org](https://www.python.org)** and installing packages with `pip` (e.g., `pip install numpy matplotlib sympy`)
+- **Do not suggest Anaconda or conda** — it adds unnecessary complexity for beginners
+- If a student shows interest in more advanced environment management, mention **`venv`** as the next step (e.g., `python -m venv env`) but only if they ask or seem ready for it
+- Keep setup instructions as simple as possible
+
+---
+
 ### Code Style
 
 - **PEP 8**: 4-space indentation, spaces around operators
